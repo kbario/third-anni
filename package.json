@@ -2,7 +2,7 @@
   "name": "third-anni",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://kbario.github.io/third-anni",
+  "homepage": "https://kbario.github.io/third-anni/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
