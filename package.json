@@ -2,13 +2,11 @@
   "name": "third-anni",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://kbario.github.io/third-anni/",
+  "homepage": "https://kbario.github.io/third-anni",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.1.2",
