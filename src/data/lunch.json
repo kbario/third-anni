@@ -1,0 +1,72 @@
+[
+  {
+    "label": "Transport",
+    "time": "11:30",
+    "timeShow": [11, 0],
+    "link": {
+      "Directions": "https://www.google.com/maps/dir/CPP+Aberdeen+Street,+Northbridge+WA/CPP+Cultural+Centre,+2+Roe+St,+Perth+WA+6000/@-31.9491369,115.8589683,17z/data=!4m14!4m13!1m5!1m1!1s0x2a32bad21257cfa7:0x23d1368485b11cb3!2m2!1d115.8569485!2d-31.94641!1m5!1m1!1s0x2a32bb29ca9fcf21:0x666f73e5a21e985!2m2!1d115.8604454!2d-31.950516!3e0"
+    }
+  },
+  {
+    "label": "Activity two",
+    "heading": "Dealer's choice",
+    "time": "12",
+    "timeShow": [11, 0],
+    "icon": "puzzle",
+    "text": "I have curated a selection of activities for you to choose from for the afternoon portion of the day.",
+    "options": [
+      {
+        "heading": "Museums",
+        "text": "Would you like to experience some cool stuff?",
+        "modal": [
+          "The museum has some amazing displays and activities.",
+          "There's a guided code-breaking tour if didn't get enough problem solving this morning x",
+          "There's also virtual reality experiences and heaps of exhibitions for us to try."
+        ],
+        "link": { "Museum": "https://visit.museum.wa.gov.au/boolabardip/" },
+        "imageLink": "https://museum.wa.gov.au/sites/default/files/imagecache/wam_v2_article_half/site-images/a957e095-c0dc-43c1-8f73-4b1dc503b29a.jpg"
+      },
+      {
+        "heading": "Art",
+        "text": "Let's go get cultured x",
+        "modal": [
+          "The art gallery is also a great place to get cultured and open our minds to a little bit more."
+        ],
+        "link": { "Art Gallery": "https://artgallery.wa.gov.au/" },
+        "imageLink": "https://images.trvl-media.com/media/content/shared/images/travelguides/destination/180013/Art-Gallery-Of-Western-Australia-40122.jpg"
+      },
+      {
+        "heading": "Shopping",
+        "text": "If all else fails we can walk around the shops and enjoy a cocktail xxx",
+        "modal": [
+          "There's not much more to say for this one but I made the other two modals and I thought it would be anticlimactic if it didn't make this a modal too x"
+        ],
+        "imageLink": "https://scharp.com.au/wp-content/uploads/2016/05/forrest-chase-hero-1.jpg"
+      }
+    ]
+  },
+
+  {
+    "label": "Transport",
+    "heading": "Park and change",
+    "text": [
+      "Our dinner reservation is for 6pm and our next activity ends at 5:20.",
+      "To avoid rushing, let's whip out the fancy dress x"
+    ],
+    "time": "2:30",
+    "timeShow": [14, 0],
+    "link": {
+      "Directions": "https://www.google.com/maps/dir/CPP+Cultural+Centre,+2+Roe+St,+Perth+WA+6000/Wilson+Parking,+551+Wellington+St,+Perth+WA+6000/@-31.9501921,115.8573606,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x2a32bb29ca9fcf21:0x666f73e5a21e985!2m2!1d115.8604454!2d-31.950516!1m5!1m1!1s0x2a32bad4112b2695:0x69d3cfe0b44ea3e5!2m2!1d115.8570688!2d-31.9510258!3e0"
+    }
+  },
+  {
+    "label": "Activity three",
+    "heading": "Movies",
+    "time": "3",
+    "timeShow": [14, 45],
+    "text": "Let's go watch a movie. It's not the one you think but I reckon you're going to really enjoy it x",
+    "link": {
+      "Synopsis": "https://www.rottentomatoes.com/m/operation_mincemeat"
+    }
+  }
+]
