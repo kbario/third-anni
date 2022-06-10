@@ -9,8 +9,7 @@ function Home() {
       gap="12"
       p="10"
       align="center"
-      h="100vh"
-      w="100vw"
+      flexGrow={1}
       backgroundColor="brand.background"
     >
       <Heading textAlign="center">Felice anniversario amore mio</Heading>
@@ -18,7 +17,7 @@ function Home() {
         To celebrate our three years, I have prepared a special day of
         activities and I hope you enjoy it x
       </Text>
-      <Link to="/sched">
+      <Link to="/third-anni/itin">
         <Button>Let's go!</Button>
       </Link>
     </Flex>

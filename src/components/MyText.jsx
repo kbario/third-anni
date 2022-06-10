@@ -1,4 +1,4 @@
-import { Text, Flex } from "@chakra-ui/react";
+import { Text } from "@chakra-ui/react";
 
 function MyText({ text }) {
   if (typeof text === "string") {

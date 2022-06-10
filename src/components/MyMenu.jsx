@@ -1,54 +1,33 @@
-import {
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuItemOption,
-  MenuGroup,
-  MenuOptionGroup,
-  Flex,
-  MenuDivider,
-  IconButton,
-} from "@chakra-ui/react";
-import { HeartIcon } from "@heroicons/react/outline";
-import { Link as RouterLink } from "react-router-dom";
+import { Flex } from "@chakra-ui/react";
+import { NavLink as RouterLink } from "react-router-dom";
 
 function MyMenu() {
+  const thing = [{ itin: "Itinerary" }, { sched: "Schedule" }];
+  const styl = { textDecoration: "underline" };
   return (
-    <Menu>
-      <MenuButton
-        as={IconButton}
-        pos="absolute"
-        bottom="5"
-        right="5"
-        p="5"
-        w="20"
-        h="20"
-        stroke="brand.background"
-        rounded="full"
-        bg="brand.hotPink"
-        aria-label="Options"
-        icon={<HeartIcon color="brand.background" />}
-      />
-      <MenuList>
-        <MenuItem
-          fontSize="2xl"
-          icon={<HeartIcon />}
-          as={RouterLink}
-          to="/sched"
-        >
-          Schedule
-        </MenuItem>
-        <MenuItem
-          fontSize="2xl"
-          icon={<HeartIcon />}
-          as={RouterLink}
-          to="/itin"
-        >
-          Itinerary
-        </MenuItem>
-      </MenuList>
-    </Menu>
+    <Flex w="full" background="brand.hotPink">
+      {thing.map((item, idx) => {
+        const lin = Object.keys(item);
+        return (
+          <Flex
+            key={idx}
+            as={RouterLink}
+            to={`/third-anni/${lin}`}
+            textColor="brand.background"
+            w="50%"
+            fontSize="xl"
+            fontWeight="bold"
+            style={({ isActive }) => (isActive ? styl : undefined)}
+            p="5"
+            justify={"center"}
+            borderRight={idx === 0 ? "2px" : "0px"}
+            borderColor={idx === 0 ? "brand.background" : "none"}
+          >
+            {item[lin]}
+          </Flex>
+        );
+      })}
+    </Flex>
   );
 }
 

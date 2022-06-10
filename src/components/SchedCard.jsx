@@ -1,17 +1,4 @@
-import {
-  Flex,
-  Heading,
-  Text,
-  Box,
-  Skeleton,
-  Image,
-  Button,
-} from "@chakra-ui/react";
-import {
-  InformationCircleIcon,
-  PuzzleIcon,
-  TruckIcon,
-} from "@heroicons/react/outline";
+import { Flex, Heading, Box, Skeleton } from "@chakra-ui/react";
 import useDate from "../hooks/useDate";
 import capitalise from "../helpers/capitalise";
 import DealersChoice from "./DealerChoice";
@@ -20,7 +7,7 @@ import MyText from "./MyText";
 
 function SchedCard({ info }) {
   const now = useDate();
-  const time = new Date(2022, 5, 9, info.timeShow[0], info.timeShow[1]);
+  const time = new Date(2022, 5, 11, info.timeShow[0], info.timeShow[1]);
   const showIcon = false;
   return (
     <Flex

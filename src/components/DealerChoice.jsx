@@ -12,7 +12,6 @@ import {
   Text,
   ModalCloseButton,
   useDisclosure,
-  Link,
   AspectRatio,
   Button,
 } from "@chakra-ui/react";
