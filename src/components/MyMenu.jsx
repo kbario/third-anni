@@ -2,7 +2,7 @@ import { Flex } from "@chakra-ui/react";
 import { NavLink as RouterLink } from "react-router-dom";
 
 function MyMenu() {
-  const thing = [{ itin: "Itinerary" }, { sched: "Schedule" }];
+  const thing = [{ Itinerary: "/itin" }, { Schedule: "/" }];
   const styl = { textDecoration: "underline" };
   return (
     <Flex w="full" background="brand.hotPink">
@@ -12,7 +12,7 @@ function MyMenu() {
           <Flex
             key={idx}
             as={RouterLink}
-            to={`/third-anni/${lin}`}
+            to={`/third-anni${item[lin]}`}
             textColor="brand.background"
             w="50%"
             fontSize="xl"
@@ -23,7 +23,7 @@ function MyMenu() {
             borderRight={idx === 0 ? "2px" : "0px"}
             borderColor={idx === 0 ? "brand.background" : "none"}
           >
-            {item[lin]}
+            {lin}
           </Flex>
         );
       })}

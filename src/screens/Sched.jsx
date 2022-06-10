@@ -6,8 +6,14 @@ import MyMenu from "../components/MyMenu";
 import breakfast from "../data/breakfast.json";
 import lunch from "../data/lunch.json";
 import dinner from "../data/dinner.json";
+import { Navigate } from "react-router-dom";
 
 function Sched() {
+  const locals = localStorage.getItem("myBoo");
+  if (locals !== "boo") {
+    return <Navigate to="/init" />;
+  }
+
   return (
     <>
       <Flex

@@ -15,18 +15,6 @@ const colors = {
     skelTwo: "#DCB9CE",
   },
 };
-
-// const style = {
-//   styles: {
-//     global: {
-//       button: {
-//         bg: "brand.hotPink",
-//         backgroundcolor: "brand.background",
-//       },
-//     },
-//   },
-// };
-
 const components = {
   Button: {
     variants: {

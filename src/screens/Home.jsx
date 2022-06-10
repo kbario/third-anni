@@ -2,6 +2,7 @@ import { Flex, Heading, Text, Button } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
 function Home() {
+  localStorage.setItem("myBoo", "boo");
   return (
     <Flex
       direction="column"
